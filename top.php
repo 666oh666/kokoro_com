@@ -27,22 +27,35 @@ if (isset($_SESSION['id']) && $_SESSION['time'] + 3600 > time()) {
 <head>
 	<meta charset="utf-8">
 	<title>ココロドットコム</title>
+  <link rel="stylesheet" type="text/css" href="css/top.css">
+
 </head>
 <body>
 
+<header>
 
+  
 <h1>ココロドットコム</h1>
 
-<h3 style="color:pink">おすすめの癒やしスポットの検索、レビューが出来るサイトです！</h3>
+<ul>
+<li><a href="index.php">一覧ページ</a></li>
+<li><a href="user_new.php">ユーザー登録</a></li>
+<li><a href="spot_new.php">スポット登録</a></li>
+<li><a href="review_new.php">レビュー投稿</a></li>
+<li><a href="login.php">ログイン</a></li>
+<li><a href="logout.php">ログアウト</a></li>
+<li><a href="spot_page.php">お店ページ</a></li>
+<li><a href="review_new.php">レビューページ</a></li>
+<li><a href="mypage.php">マイページ</a></li>
+</ul>
+<br>
+</header>
 
-<a href="index.php">一覧ページ</a><br>
-<a href="user_new.php">ユーザー登録</a><br>
-<a href="spot_new.php">スポット登録</a><br>
-<a href="review_new.php">レビュー投稿</a><br>
-<a href="login.php">ログイン</a><br>
-<a href="logout.php">ログアウト</a><br>
-<a href="spot_page.php">お店ページ</a><br>
-<a href="review_new.php">レビューページ</a><br>
-<a href="mypage.php">マイページ</a><br>
+<div class="contents">
+  <h3 style="color:pink">おすすめの癒やしスポットの検索、レビューが出来るサイトです！</h3>
+</div>
+
+
+
 </body>
 </html

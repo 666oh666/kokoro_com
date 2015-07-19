@@ -35,7 +35,7 @@ if (!empty($_POST)) {
 				setcookie('password', $_POST['password'], time()+60*60*24*14);
 			}
 
-			header('Location: index.php');
+			header('Location: top.php');
 			exit();
 		} else {
 			$error['login'] = 'failed';
