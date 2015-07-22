@@ -50,8 +50,6 @@ if (!empty($_POST)) {
 	exit();
 }
 
-	$sql2 = "SELECT * FROM m_ken";
-	$record = mysql_query($sql2) or die(mysql_error());
 
 ?>
 
@@ -157,4 +155,4 @@ URL：<input type="text" name="url">
 
 <a href="top.php">トップページへ戻る</a><br>
 </body>
-</html
+</html>

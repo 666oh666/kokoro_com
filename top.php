@@ -35,7 +35,7 @@ if (isset($_SESSION['id']) && $_SESSION['time'] + 3600 > time()) {
 <header>
 
   
-<h1>ココロドットコム</h1>
+<h1 class="title1">ココロドットコム</h1>
 
 <ul>
 <li><a href="index.php">一覧ページ</a></li>
