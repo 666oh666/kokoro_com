@@ -79,16 +79,7 @@ if (!empty($_POST)) {
 
 <p>
 場所：<select name="place">
-
 <option value="" selected>都道府県</option>
-
-<?php
-while ($mken = mysql_fetch_assoc($record)):
-?>
-<option value="<?php echo $mken['id']; ?>"><?php echo $mken['name']; ?></option>
-<?php endwhile?>
-
-<!-- <option value="" selected>都道府県</option>
 <option value="北海道">北海道</option>
 <option value="青森県">青森県</option>
 <option value="岩手県">岩手県</option>
